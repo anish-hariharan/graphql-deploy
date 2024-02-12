@@ -12,7 +12,4 @@ exports.handler = server.createHandler({
   cors: {
     origin: "*",
   },
-} as Parameters<
-typeof ApolloServer.prototype.createHandler
->[0]);
-;
+});
