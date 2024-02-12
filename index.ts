@@ -1,5 +1,5 @@
-import { TestResolver } from "./resolver/resolver";
-import typedefs from "./typeDefs/typeDefs";
+import { TestResolver } from "./src/resolver/resolver";
+import typedefs from "./src/typeDefs/typeDefs";
 import { ApolloServer } from "apollo-server";
 import { ApolloServer as ApolloServerLamda, gql } from "apollo-server-lambda";
 
