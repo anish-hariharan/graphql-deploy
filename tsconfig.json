@@ -9,7 +9,7 @@
       "types": ["node", "apollo-server-lambda"],
       "outDir": "dist"
     },
-    "include": ["src/**/*.ts", "functions/index.ts"],
+    "include": ["src/**/*.ts", "src/index.ts"],
     "exclude": ["node_modules"]
   }
   
